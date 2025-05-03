@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Início - HypertrophIA{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+    <h1 class="display-4">Bem-vindo ao <strong>HypertrophIA</strong> 💪</h1>
+    <p class="lead mt-3">
+        Seu app inteligente para evoluir seus treinos com tecnologia e ciência.
+    </p>
+    <a href="{% url 'login' %}" class="btn btn-primary btn-lg mt-4">Começar agora</a>
+</div>
+{% endblock %}
