@@ -15,7 +15,7 @@ no Git Bash: source venv/Scripts/activate,
 no powershell: .\venv\Scripts\activate
 
 3 - Instalar as libs necessárias:
-pip install requirements.txt
+pip install -r requirements.txt
 
 4 - Rodar o servidor do projeto:
 python manage.py runserver
